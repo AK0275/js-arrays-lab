@@ -83,3 +83,13 @@ const numumArrays = [
 let numList = numumArrays[numumArrays.length -1]
 
 console.log('Exercise 13 result:', numList);
+
+const numArrays = [
+    [100, 5, 23],
+    [15, 21, 72, 9],
+    [45, 66],
+    [7, 81, 90]
+    ]
+let num = numArrays[2][1]
+
+console.log('Exercise 14 result:', num);
