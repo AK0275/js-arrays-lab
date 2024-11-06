@@ -22,3 +22,6 @@ foods.splice(1, 1, 'sushi', 'cupcake')
 
 console.log('Exercise 6 result:', foods);
 
+let yummy = foods.slice(1, 3);
+
+console.log('Exercise 7 result:', yummy);
