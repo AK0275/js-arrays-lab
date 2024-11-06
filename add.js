@@ -71,3 +71,15 @@ console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
 console.log('  fizzbuzz:', fizzbuzz);
+
+const numumArrays = [
+[100, 5, 23],
+[15, 21, 72, 9],
+[45, 66],
+[7, 81, 90]
+
+]
+
+let numList = numumArrays[numumArrays.length -1]
+
+console.log('Exercise 13 result:', numList);
