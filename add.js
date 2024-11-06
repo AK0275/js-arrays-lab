@@ -10,15 +10,12 @@ foods.unshift('taco')
 
 console.log('Exercise 3 result:', foods);
 
-let favFood = foods
-
-favFood = ['pizza', 'cheeseburger', 'taco']
-
-favFood.forEach((favFood, index) => {
-
-    console.log(`${index}: ${favFood}`)
-})
+let favFood = foods[1]
 
 console.log('Exercise 4 result:', favFood);
+
+foods.splice(2, 0, "tofu")
+
+console.log('Exercise 5 result:', foods);
 
 
