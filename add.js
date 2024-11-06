@@ -12,9 +12,7 @@ console.log('Exercise 3 result:', foods);
 
 let favFood = foods
 
-favFood.pop('pizza')
-
-favFood.unshift('pizza')
+favFood = ['pizza', 'cheeseburger', 'taco']
 
 favFood.forEach((favFood, index) => {
 
@@ -22,3 +20,5 @@ favFood.forEach((favFood, index) => {
 })
 
 console.log('Exercise 4 result:', favFood);
+
+
