@@ -18,4 +18,7 @@ foods.splice(2, 0, "tofu")
 
 console.log('Exercise 5 result:', foods);
 
+foods.splice(1, 1, 'sushi', 'cupcake')
+
+console.log('Exercise 6 result:', foods);
 
