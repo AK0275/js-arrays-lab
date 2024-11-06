@@ -93,3 +93,14 @@ const numArrays = [
 let num = numArrays[2][1]
 
 console.log('Exercise 14 result:', num);
+
+let total =0
+
+numArrays.forEach(innerArray => {
+innerArray.forEach(number => {
+    total += number
+})
+
+})
+
+console.log('Exercise 15 result:\n', total);
