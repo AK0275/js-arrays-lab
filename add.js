@@ -33,3 +33,7 @@ console.log('Exercise 8 result:', soyIdx);
 let allFoods = foods.join(' -> ')
 
 console.log('Exercise 9 result:', allFoods);
+
+let hasSoup = foods.includes('soup')
+
+console.log('Exercise 10 result:', hasSoup);
