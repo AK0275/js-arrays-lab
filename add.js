@@ -37,3 +37,37 @@ console.log('Exercise 9 result:', allFoods);
 let hasSoup = foods.includes('soup')
 
 console.log('Exercise 10 result:', hasSoup);
+
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+
+let odds =[]
+
+nums.forEach((num) => {
+if (num / 2 !== 0){
+    odds.push(num)
+
+}
+
+
+})
+
+console.log('Exercise 11 result:', odds);
+
+let fizz = []
+let buzz =[]
+let fizzbuzz = []
+
+nums.forEach(num => {
+    if (num / 3 === 0 && num / 5 === 0) {
+        fizzbuzz.push(num)
+    } else if (num / 3 === 0) {
+        fizz.push(num)
+    } else if (num / 5 === 0) {
+        buzz.push(num)
+    }
+})
+
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
