@@ -29,3 +29,7 @@ console.log('Exercise 7 result:', yummy);
 let soyIdx =foods.indexOf('tofu')
 
 console.log('Exercise 8 result:', soyIdx);
+
+let allFoods = foods.join(' -> ')
+
+console.log('Exercise 9 result:', allFoods);
